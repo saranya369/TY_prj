@@ -30,9 +30,9 @@ public class extnrpt {
 	  @BeforeMethod
 	  public void openreport() 
 	  { 
-		ExtentHtmlReporter htmlreport = new ExtentHtmlReporter("extentreport.html");
+		 htmlreport = new ExtentHtmlReporter("extentreport.html");
 	  
-	  ExtentReports reports = new ExtentReports();
+	   reports = new ExtentReports();
 	  
 	  reports.attachReporter(htmlreport);
 	  }
